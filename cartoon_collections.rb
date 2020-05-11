@@ -21,18 +21,3 @@ def find_the_cheese(strings)
     cheese_types.include?(cheese)
 end
 end
-
-def find_the_cheese(array)
-  array.find do |cheese|
-    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
-  end
-end
-
-def find_the_cheese(array)
-  
-    array.find do |type|
-    cheese_types.include?(type)
-  end 
-end
-
-find_the_cheese(snacks)
