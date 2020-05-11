@@ -16,6 +16,6 @@ end
 
 
 def find_the_cheese(strings)
-  strings.detect do |strings| .is_a?(strings)
+  strings.detect do |strings| strings.is_a?(strings)
 end
 end
