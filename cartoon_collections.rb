@@ -16,6 +16,12 @@ end
 
 
 def find_the_cheese(strings)
-  strings.detect do |strings| strings.is_a?(strings)
+  strings.detect do |cheese| strings.is_a?(strings)
 end
+end
+
+def find_the_cheese(array)
+  array.find do |cheese|
+    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
+  end
 end
